@@ -49,8 +49,8 @@ Register an account at https://eventhub.rahulshettyacademy.com, then update the
 credentials at the top of the spec file:
 
 ```javascript
-const EMAIL = 'your-email@example.com';
-const PASSWORD = 'your-password';
+const userEmail   = 'email@gmail.com';
+const userPassword= 'password@1234'; 
 ```
 
 ## Running
