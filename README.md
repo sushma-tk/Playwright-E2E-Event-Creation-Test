@@ -61,9 +61,3 @@ npx playwright test --headed     # watch it run
 npx playwright show-report       # open the HTML report
 ```
 
-## Notes
-
-- Every run creates a new event with a timestamped title, so tests don't collide
-  with each other or with existing data.
-- The event date is generated 45 days ahead by a `futureDateValue()` helper
-  rather than hardcoded, so the test won't break over time.
