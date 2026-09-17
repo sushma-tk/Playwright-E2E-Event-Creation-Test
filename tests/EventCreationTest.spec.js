@@ -3,8 +3,8 @@ import { test, expect } from '@playwright/test';
 const url      = 'https://eventhub.rahulshettyacademy.com'
 
 // ── Credentials 
-const userEmail   = 'sushma.tacholi@gmail.com';
-const userPassword= 'Sushma@1234'; 
+const userEmail   = 'email@gmail.com';
+const userPassword= 'password@1234'; 
  
 // ── Login Helpers 
 async function login(page) {
