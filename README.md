@@ -3,8 +3,12 @@
 An end-to-end UI test written with Playwright (JavaScript) against the
 [EventHub](https://eventhub.rahulshettyacademy.com) practice application.
 
+What you are testing: Create a brand new event from the admin panel, then complete a booking for that event, and finally verify the seat count drops by exactly 1.
+
 The test covers a complete user journey: an admin creates a new event, a booking
 is made for that event, and the seat count is verified to drop by exactly one.
+
+> Practice application and assignment courtesy of [Rahul Shetty Academy](https://rahulshettyacademy.com).
 
 ## What the test does
 
